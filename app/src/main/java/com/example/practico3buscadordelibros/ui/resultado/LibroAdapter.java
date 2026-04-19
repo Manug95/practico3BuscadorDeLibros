@@ -13,13 +13,14 @@ import com.example.practico3buscadordelibros.databinding.ItemLibroBinding;
 import com.example.practico3buscadordelibros.modelos.Libro;
 import com.example.practico3buscadordelibros.ui.detalle.DetalleActivity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class LibroAdapter extends RecyclerView.Adapter<LibroAdapter.LibroViewHolder> {
     private Context context;
-    private List<Libro> lista;
+    private ArrayList<Libro> lista;
 
-    public LibroAdapter(List<Libro> listaLibros, Context context) {
+    public LibroAdapter(ArrayList<Libro> listaLibros, Context context) {
         this.lista = listaLibros;
         this.context = context;
     }
@@ -51,11 +52,8 @@ public class LibroAdapter extends RecyclerView.Adapter<LibroAdapter.LibroViewHol
         }
 
         public void bind(Libro libro) {
-            String titulo = "Dirección: " + libro.getTitulo();
-            String autor = "Precio: " + libro.getAutor();
-
-            binding.tvTituloItem.setText(titulo);
-            binding.tvAutorItem.setText(autor);
+            binding.tvTituloItem.setText(libro.getTitulo());
+            binding.tvAutorItem.setText(libro.getAutor());
             binding.ivTumbnail.setImageResource(libro.getImagen());
 
             binding.itemLibro.setOnClickListener(new View.OnClickListener() {

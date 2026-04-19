@@ -13,4 +13,32 @@
     <string name="portada_del_libro">Portada del libro</string>
     <string name="miniatura">Miniatura de la portada del libro</string>
     <string name="volver_al_buscador">Volver al buscador</string>
+    <string name="no_hubo_resultados">No hubo ningún resultado en la búsqueda</string>
+
+    <string name="sinopsis_principito">Un piloto conoce a un niño de otro planeta que relata sus viajes. A través de encuentros simbólicos reflexiona sobre la vida y los adultos. Es una fábula sobre amor y sentido.</string>
+    <string name="sinopsis_alquimista">Un joven pastor llamado Santiago emprende un viaje en busca de un tesoro tras un sueño recurrente. En el camino aprende sobre el destino, las señales y el propósito personal. Su travesía es tanto externa como espiritual.</string>
+    <string name="sinopsis_anillos">Frodo Bolsón hereda un anillo con un poder oscuro y debe llevarlo a Mordor para destruirlo. Forma una comunidad con aliados de distintas razas. Juntos comienzan una peligrosa misión para evitar que el mal resurja.</string>
+    <string name="sinopsis_anillos2">La comunidad se separa y cada grupo enfrenta desafíos distintos. Mientras Frodo continúa su misión con Sam, otros luchan contra las fuerzas de Saruman. La guerra en la Tierra Media se intensifica.</string>
+    <string name="sinopsis_anillos3">La batalla final contra Sauron se acerca mientras Frodo se acerca a Mordor. Aragorn asume su destino como rey. El destino de la Tierra Media se decide en un enfrentamiento definitivo.</string>
+    <string name="sinopsis_potter">Harry descubre que es un mago y entra a Hogwarts. Allí hace amigos y enfrenta misterios sobre una piedra mágica. Comienza su lucha contra el oscuro pasado ligado a Voldemort.</string>
+    <string name="sinopsis_potter2">Extraños ataques petrifican a alumnos en Hogwarts. Harry descubre una cámara oculta y enfrenta un peligro relacionado con el pasado de la escuela. La amenaza crece desde dentro.</string>
+    <string name="sinopsis_potter3">Un prisionero peligroso escapa y parece buscar a Harry. Surgen revelaciones sobre los padres de Harry y su pasado. La historia toma un tono más oscuro y complejo.</string>
+    <string name="sinopsis_potter4">Harry participa inesperadamente en un torneo mágico peligroso. Las pruebas lo ponen al límite y revelan conspiraciones. El regreso de Voldemort marca un punto de inflexión.</string>
+    <string name="sinopsis_potter5">El Ministerio niega el regreso de Voldemort mientras Harry enfrenta aislamiento. Forma un grupo secreto para entrenar a sus compañeros. La tensión política y emocional crece.</string>
+    <string name="sinopsis_potter6">Harry, Ron y Hermione buscan destruir los horrocruxes. La guerra contra Voldemort alcanza su clímax. Sacrificio, amistad y destino se entrelazan en el final.</string>
+    <string name="sinopsis_crimen">Un estudiante pobre comete un asesinato creyendo estar por encima de la moral. Luego enfrenta una intensa lucha psicológica y culpa. La obra explora justicia, redención y conciencia.</string>
+    <string name="sinopsis_cienanios">Relata la historia de la familia Buendía a lo largo de generaciones en Macondo. Combina realidad y fantasía en un ciclo de soledad y destino. Es una obra clave del realismo mágico.</string>
+    <string name="sinopsis_cthulhu">Un investigador descubre evidencias de un antiguo dios dormido. A través de documentos y testimonios, emerge una verdad aterradora. El relato explora lo incomprensible y el horror cósmico.</string>
+    <string name="sinopsis_davinci">Un simbólogo investiga un asesinato en el Louvre ligado a secretos religiosos. Junto a una criptógrafa descifra enigmas ocultos en obras de arte. La trama mezcla historia, religión y conspiración.</string>
+    <string name="sinopsis_gatsby">Narrrada por Nick Carraway, cuenta la vida del misterioso millonario Gatsby. Su obsesión por un amor pasado refleja el sueño americano. La historia muestra lujo, ilusión y decadencia.</string>
+    <string name="sinopsis_1984">En un régimen totalitario, el Estado controla todos los aspectos de la vida. Winston desafía el sistema buscando verdad y libertad. Es una crítica al poder absoluto y la manipulación.</string>
+    <string name="sinopsis_orgullo">Elizabeth Bennet enfrenta normas sociales y prejuicios en torno al matrimonio. Su relación con Darcy evoluciona entre malentendidos y orgullo. Es una crítica a la sociedad de su época.</string>
+    <string name="sinopsis_quijote">Un hidalgo enloquece leyendo libros de caballería y decide ser caballero andante. Junto a Sancho Panza vive aventuras entre fantasía y realidad. La obra mezcla humor y crítica social.</string>
+    <string name="sinopsis_ruisenior">Una niña narra la defensa de un hombre negro acusado injustamente. Su padre, Atticus Finch, lucha por la justicia en un contexto racista. La historia aborda moral, prejuicio y empatía.</string>
+    <string name="sinopsis_viento">Kvothe relata su vida desde su infancia hasta convertirse en leyenda. Su historia mezcla magia, música y tragedia. Es una narración sobre conocimiento, poder y memoria.</string>
+    <string name="sinopsis_hambre">En un mundo distópico, jóvenes luchan a muerte en un espectáculo televisado. Katniss se convierte en símbolo de rebelión contra el Capitolio. La saga trata supervivencia y poder.</string>
+    <string name="sinopsis_hambre2">Tras sobrevivir a los juegos, Katniss enfrenta consecuencias políticas. La rebelión comienza a expandirse. Se ve obligada a regresar a la arena en una edición especial.</string>
+    <string name="sinopsis_hambre3">Katniss se convierte en el rostro de la rebelión contra el Capitolio. La guerra se intensifica y exige decisiones difíciles. El final redefine su identidad y su lucha.</string>
+    <string name="sinopsis_hobbit">Bilbo Bolsón es arrastrado a una aventura con enanos para recuperar un tesoro. En el camino enfrenta criaturas y descubre su valentía. Es una historia de crecimiento y descubrimiento.</string>
+
 </resources>

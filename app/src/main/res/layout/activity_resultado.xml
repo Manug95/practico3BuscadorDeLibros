@@ -15,7 +15,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:paddingVertical="5dp"
         android:background="#4B10B6"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

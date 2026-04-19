@@ -21,13 +21,15 @@ public class DetalleActivity extends AppCompatActivity {
         viewModel = ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication()).create(DetalleActivityViewModel.class);
 
         viewModel.getmLibro().observe(this, libro -> {
+            String paginas = libro.getPaginas() + " páginas";
+
+            binding.ivPortada.setImageResource(libro.getImagen());
             binding.tvTituloLibro.setText(libro.getTitulo());
             binding.tvAutor.setText(libro.getAutor());
             binding.tvAnio.setText(String.valueOf(libro.getAnio()));
-            binding.tvPaginas.setText(String.valueOf(libro.getPaginas()));
+            binding.tvPaginas.setText(paginas);
             binding.tvGeneros.setText(String.join(", ", libro.getGeneros()));
             binding.tvDescripcion.setText(libro.getDescripcion());
-            binding.ivPortada.setImageResource(libro.getImagen());
         });
 
         binding.btnVolver.setOnClickListener(view -> {

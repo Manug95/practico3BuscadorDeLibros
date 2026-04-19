@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
         binding.btnBuscar.setOnClickListener(view -> {
             String titulo = binding.etBuscarLibro.getText().toString();
-//            viewModel.buscarLibro(titulo);
             viewModel.buscarLibros(titulo);
         });
     }
