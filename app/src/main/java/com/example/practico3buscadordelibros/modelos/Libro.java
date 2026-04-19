@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class Libro implements Serializable {
+public class Libro implements Serializable, Comparable<Libro> {
     private int id;
     private String titulo;
     private String autor;
@@ -86,5 +86,10 @@ public class Libro implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hashCode(id);
+    }
+
+    @Override
+    public int compareTo(Libro libro) {
+        return this.titulo.compareToIgnoreCase(libro.getTitulo());
     }
 }

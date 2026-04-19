@@ -11,6 +11,8 @@ import com.example.practico3buscadordelibros.modelos.Libro;
 import com.example.practico3buscadordelibros.modelos.RepositorioLibro;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class MainActivityViewModel extends AndroidViewModel {
     private final RepositorioLibro repo;
@@ -47,12 +49,17 @@ public class MainActivityViewModel extends AndroidViewModel {
     }
 
     public void buscarLibros(String titulo) {
-        ArrayList<Libro> libros = repo.listarLibrosPorTitulo(titulo);
-        if (!libros.isEmpty()) {
-            mLibros.setValue(libros);
-        }
-        else {
-            mMensaje.setValue(getApplication().getString(R.string.no_hubo_resultados));
+        if (titulo != null && !titulo.isEmpty()) {
+            ArrayList<Libro> libros = repo.listarLibrosPorTitulo(titulo);
+            if (!libros.isEmpty()) {
+                Collections.sort(libros);
+                mLibros.setValue(libros);
+            }
+            else {
+                mMensaje.setValue(getApplication().getString(R.string.no_hubo_resultados));
+            }
+        } else {
+            mMensaje.setValue(getApplication().getString(R.string.campo_titulo_vacio));
         }
     }
 }
