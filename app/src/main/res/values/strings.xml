@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Practico3BuscadorDeLibros</string>
+    <string name="buscar">Buscar</string>
+    <string name="buscador_de_libros">Buscador de Libros</string>
+    <string name="hint_titulo_del_libro">Titulo del libro</string>
+    <string name="tvLabelTituloLibro">Título:</string>
+    <string name="tvLabelAutor">Autor:</string>
+    <string name="tvLabelAnio">Año:</string>
+    <string name="tvLabelPaginas">Páginas:</string>
+    <string name="tvLabelGeneros">Géneros:</string>
+    <string name="tvLabelDescripcion">Descripción:</string>"
+    <string name="btnVolver">Volver</string>
+    <string name="portada_del_libro">Portada del libro</string>
+    <string name="miniatura">Miniatura de la portada del libro</string>
+    <string name="volver_al_buscador">Volver al buscador</string>
+</resources>
